@@ -1,0 +1,5 @@
+entries:
+  - url: "example.com"
+    addr: "228.137.1.52"
+  - url: "google.com"
+    addr: "127.0.0.1"
