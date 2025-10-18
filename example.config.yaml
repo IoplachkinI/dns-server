@@ -1,0 +1,36 @@
+records:
+  - name: "example.com"
+    type: "A"
+    class: "IN"
+    ttl: 3600
+    data: "127.0.0.1"
+  - name: "example.com"
+    type: "AAAA"
+    class: "IN"
+    ttl: 3600
+    data: "::1"
+  - name: "www.example.com"
+    type: "CNAME"
+    class: "IN"
+    ttl: 3600
+    data: "example.com"
+  - name: "example.com"
+    type: "NS"
+    class: "IN"
+    ttl: 3600
+    data: "ns1.example.com"
+  - name: "example.com"
+    type: "MX"
+    class: "IN"
+    ttl: 3600
+    data: "10 mail.example.com"
+  - name: "example.com"
+    type: "TXT"
+    class: "IN"
+    ttl: 3600
+    data: "v=spf1 include:_spf.google.com ~all"
+  - name: "1.0.0.127.in-addr.arpa"
+    type: "PTR"
+    class: "IN"
+    ttl: 3600
+    data: "example.com"
