@@ -12,8 +12,6 @@
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
-#include <optional>
-#include <unordered_map>
 
 static constexpr int MAX_REQUESTS = 8;
 static constexpr int BUF_SIZE     = 512;
